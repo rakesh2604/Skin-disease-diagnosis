@@ -1,0 +1,23 @@
+# FastAPI and server
+fastapi==0.115.0
+uvicorn[standard]==0.32.0
+python-multipart==0.0.12
+
+# Image processing
+Pillow==11.0.0
+numpy==2.1.3
+
+# Utilities
+python-dotenv==1.0.0
+pydantic==2.10.2
+
+# Production dependencies
+slowapi==0.1.9                    # Rate limiting
+python-magic-bin==0.4.14          # MIME type validation (Windows)
+sentry-sdk[fastapi]==2.18.0       # Error monitoring
+
+# Optional: TensorFlow for real model (uncomment when ready)
+# tensorflow==2.18.0
+
+# Optional: For deployment
+gunicorn==21.2.0
