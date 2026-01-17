@@ -7,6 +7,10 @@
 
 import React from 'react';
 
+interface LoadingSpinnerProps {
+    message?: string;
+}
+
 export default function LoadingSpinner({ message = "Analyzing image..." }: LoadingSpinnerProps) {
     return (
         <div className="flex flex-col items-center justify-center p-12" role="status" aria-live="polite" aria-busy="true">
