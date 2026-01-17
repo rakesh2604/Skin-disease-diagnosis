@@ -13,7 +13,6 @@ pydantic==2.10.2
 
 # Production dependencies
 slowapi==0.1.9                    # Rate limiting
-python-magic-bin==0.4.14          # MIME type validation (Windows)
 sentry-sdk[fastapi]==2.18.0       # Error monitoring
 
 # Optional: TensorFlow for real model (uncomment when ready)
